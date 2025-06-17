@@ -2,8 +2,8 @@ const mineflayer = require('mineflayer');
 
 function startBot() {
   const bot = mineflayer.createBot({
-    host: process.env.HOST || 'mainserver211.aternos.me',  // replace with your Aternos host
-    port: parseInt(process.env.PORT) || 30638,             // replace with your Aternos port
+    host: process.env.HOST || 'PLUMSMP.aternos.me',  // replace with your Aternos host
+    port: parseInt(process.env.PORT) || 12862,             // replace with your Aternos port
     username: process.env.USERNAME || 'AFK_Bot_' + Math.floor(Math.random() * 1000)
   });
 
